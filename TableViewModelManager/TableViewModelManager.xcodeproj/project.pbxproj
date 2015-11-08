@@ -9,18 +9,14 @@
 /* Begin PBXBuildFile section */
 		E7B6214E1BEF95CD0064182D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6214D1BEF95CD0064182D /* AppDelegate.swift */; };
 		E7B621501BEF95CD0064182D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6214F1BEF95CD0064182D /* ViewController.swift */; };
-		E7B621531BEF95CD0064182D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B621511BEF95CD0064182D /* Main.storyboard */; };
 		E7B621551BEF95CD0064182D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7B621541BEF95CD0064182D /* Assets.xcassets */; };
-		E7B621581BEF95CD0064182D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7B621561BEF95CD0064182D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7B6214A1BEF95CD0064182D /* TableViewModelManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewModelManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B6214D1BEF95CD0064182D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7B6214F1BEF95CD0064182D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E7B621521BEF95CD0064182D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E7B621541BEF95CD0064182D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E7B621571BEF95CD0064182D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7B621591BEF95CD0064182D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,12 +52,18 @@
 			children = (
 				E7B6214D1BEF95CD0064182D /* AppDelegate.swift */,
 				E7B6214F1BEF95CD0064182D /* ViewController.swift */,
-				E7B621511BEF95CD0064182D /* Main.storyboard */,
+				E7B6215F1BEF968E0064182D /* TableViewModelManager */,
 				E7B621541BEF95CD0064182D /* Assets.xcassets */,
-				E7B621561BEF95CD0064182D /* LaunchScreen.storyboard */,
 				E7B621591BEF95CD0064182D /* Info.plist */,
 			);
 			path = TableViewModelManager;
+			sourceTree = "<group>";
+		};
+		E7B6215F1BEF968E0064182D /* TableViewModelManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = TableViewModelManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,9 +124,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B621581BEF95CD0064182D /* LaunchScreen.storyboard in Resources */,
 				E7B621551BEF95CD0064182D /* Assets.xcassets in Resources */,
-				E7B621531BEF95CD0064182D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,25 +141,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E7B621511BEF95CD0064182D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7B621521BEF95CD0064182D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E7B621561BEF95CD0064182D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E7B621571BEF95CD0064182D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E7B6215A1BEF95CD0064182D /* Debug */ = {
@@ -247,6 +228,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TableViewModelManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = london.georgegreen.TableViewModelManager;
@@ -258,6 +240,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TableViewModelManager/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = london.georgegreen.TableViewModelManager;
